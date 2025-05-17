@@ -1,0 +1,80 @@
+- Registrar datos personales:
+
+• Datos personales (nombre, documento, contacto, dirección, correo, fecha
+de nacimiento) (Juan)
+• Formación académica (institución, título, años)  (Jeims)
+• Experiencia profesional (empresa, cargo, funciones, duración) (Angelica)
+• Referencias personales y/o laborales (nombre, relación, teléfono) (Luna)
+• Habilidades o certificaciones adicionales (Juan)
+CHECK
+
+
+- Consultar hoja de vida
+
+• Buscar por nombre, documento o correo electrónico (Angelica)
+• Filtrar por años de experiencia, formación o habilidades (Juan)
+• Visualizar en formato legible cada sección por separado o en conjunto (Luna)
+CHECK
+
+- actualizar datos
+
+• Añadir nueva experiencia o formación (Jeims)
+• Editar datos personales o de contacto
+• Cambiar o agregar habilidades y referencias
+
+
+- exportar hoja de vida
+
+• Listado de hojas de vida con experiencia superior a N años
+• Candidatos con cierta certificación o formación específica
+• Exportación en .json, .csv o .txt de hojas de vida completas o resumidas
+
+Requisitos técnicos
+
+• Lenguaje: Python 3
+• Ejecución: Consola
+• Estructuras de datos obligatorias:
+• diccionarios (para representar cada hoja de vida)
+• listas (para almacenar múltiples experiencias, estudios, etc.)
+• sets (para validar datos únicos como correos, habilidades globales)
+• tuplas (para datos que no cambian, como documento + fecha nacimiento)
+
+• Uso de funciones con parámetros y retorno
+• Separación del código en módulos o archivos
+• Uso obligatorio de al menos una librería estándar o externa, como:
+• datetime (para calcular edad o duración laboral)
+• json o csv (para exportar hojas de vida)
+• tabulate o rich (para visualizar reportes en consola)
+• collections.Counter (para analizar habilidades más comunes)
+
+Organización del trabajo (Angelica)
+• Utilizar un tablero de tareas digital, como:
+• Trello
+• Jira
+• Azure Boards
+• El tablero debe incluir:
+• Tareas por integrante
+• Responsables
+• Etapas (pendiente, en proceso, terminado)
+• Incluir una captura del tablero al momento de la entrega, dentro del repositorio.
+
+Sugerencias
+Estructura esperada del repositorio
+vitaeconsole-equipo-[nombre]
+├── main.py
+├── hojasdevida.py
+├── reportes.py
+├── datos.json
+├── README.md
+├── tablero.png
+└── exportado.csv
+
+README.md obligatorio (Juan)
+Debe contener:
+1. Nombre del proyecto
+2. Nombres de los integrantes y grupo al que pertenecen
+3. Descripción general del sistema
+4. Instrucciones para ejecutar el programa
+5. Librerías utilizadas y cómo instalarlas
+6. Ejemplos de uso o datos simulados
+7. Captura del tablero de trabajo
