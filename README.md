@@ -47,6 +47,7 @@ Librerias utilizadas:
 
 Estas no requieren instalacion previa ya que estamos invocando archivos que ya se crearon anteriormente.
 
- - ñaodwhdiulabwlid
+ -
 
+ Por cierto, el .json se crea cuando se ejecuta el archivo al anadir nuevos usuarios, ya que si no se hace asi se sobreescriben datos si se pasa un json a modificado
 Ejemplos de uso:
